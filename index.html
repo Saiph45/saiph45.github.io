@@ -40,7 +40,14 @@
             border: dashed #E3DDDB;
             padding: 2rem;
         }
-        @media (max-width: 1350px) {
+        @media (max-width: 800px) {
+        body{
+            background-color:#EAE7DC;
+            padding-left: 5%;
+            margin-inline-start: -20%;
+            padding-bottom: 2rem;
+            border: 10px groove #c4bea7 ;  
+        }
         .project{
             display: inline-block;
             height: 500px;
@@ -48,13 +55,11 @@
             border: 1% dashed #E3DDDB;
             padding: 2rem;
         }
-
-        body{
-            background-color:#EAE7DC;
-            padding-left: 5%;
-            padding-bottom: 2rem;
-            padding-right: 5%;
+        p{
+            font-size: 100%;
+            font-family:Georgia, 'Times New Roman', Times, serif;
         }
+
     }
     </style>
 </head>
@@ -98,7 +103,7 @@
     <!-- Projects Section -->
     <section id="projects">
         <h2>My Projects</h2>
-        <div class="project-grid">
+        <div class="project-flex">
             <div class="project">
                 <h3 style="color: darkblue;">Project 1: Birthday Invite Project </h3>
                 <img style="height:40%; width: 40%;" src="./birthday.png" alt="Project 1 Image">
